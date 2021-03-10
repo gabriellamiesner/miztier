@@ -1,5 +1,4 @@
 import React from "react";
-import colors from "../data/";
 import { Draggable } from "react-beautiful-dnd";
 
 export default class Item extends React.Component {
@@ -7,7 +6,6 @@ export default class Item extends React.Component {
     // to forgo color-coding, you could delete `subject` and set `color`
     // to a constant color value, e.g. "#bbb"
     const subject = this.props.number.split(".")[0]; // for MIT
-    const color = colors[subject];
     return (
       <Draggable draggableId={this.props.id} index={this.props.index}>
         {(provided) => (
