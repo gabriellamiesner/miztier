@@ -13,7 +13,7 @@ const Index = () => {
     A: [],
     B: [],
     C: [],
-    D: [],
+    D: []
   };
   const tierColors = {
     // thanks https://colorswall.com/palette/3297/
