@@ -85,6 +85,7 @@ export default class Header extends React.Component {
     return (
       <header>
         <h1>{CONFIG.HEADING}</h1>
+        <img src = "https://www.clipartmax.com/png/full/150-1509428_university-of-missouri-mizzou-tigers.png" height = "75rem" alt = "miz tiger"/>
         <div id="search">
           <div ref={this.wrapperRef}>
             <SearchInput
