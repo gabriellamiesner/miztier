@@ -9,11 +9,11 @@ resetServerContext();
 
 const Index = () => {
   const initialTiers = {
-    S: ["IS&T 1561"], // course numbers as IDs
-    A: ["FR ENG 1100" ],
-    B: ["BIO SCI 1113"],
-    C: ["IS&T 1750"],
-    D: ["MATH 1120"],
+    S: ["INFOTC 1040"], // course numbers as IDs
+    A: [],
+    B: [],
+    C: [],
+    D: [],
   };
   const tierColors = {
     // thanks https://colorswall.com/palette/3297/
@@ -91,7 +91,7 @@ const Index = () => {
         <meta name="twitter:image" content={META.image} />
         <meta name="twitter:image:alt" content={META.imageAlt} />
       </Head>
-       <h1> MizTier : Rank your classes</h1>
+       <h1> MizTier : Rank your Mizzou classes</h1>
        <img src = "https://www.clipartmax.com/png/full/150-1509428_university-of-missouri-mizzou-tigers.png" height = "75rem" alt = "miz tiger"/>
     <header>
         <Search addClass={addClass} />
