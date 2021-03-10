@@ -71,12 +71,9 @@ const Index = () => {
     }
   };
   const META = {
-    title: `MSTier: Tier rank MST classes`,
+    title: `MizTier: Tier rank Mizzou classes`,
     description: `All in the title`,
-    url: `https://mitier.vercel.app`,
-    siteName: `MSTier`,
-    image: `screenshot.jpg`,
-    imageAlt: `Example tier list of MIT classes`,
+    siteName: `MizTier`,
   };
   return (
     <div>
@@ -94,9 +91,9 @@ const Index = () => {
         <meta name="twitter:image" content={META.image} />
         <meta name="twitter:image:alt" content={META.imageAlt} />
       </Head>
-       <h1> MSTier : Rank your classes</h1>
-<img src = "https://brand.mst.edu/media/universityadvancement/brand/logos/athletics/mascotmarks/JOE_MINER_FC.png" height = "75rem" alt = "s&t joe miner"/>
-      <header>
+       <h1> MizTier : Rank your classes</h1>
+       <img src = "https://www.clipartmax.com/png/full/150-1509428_university-of-missouri-mizzou-tigers.png" height = "75rem" alt = "miz tiger"/>
+    <header>
         <Search addClass={addClass} />
       </header>
       <section>
