@@ -8,7 +8,7 @@ const CONFIG = {
     },
   INITIAL_TIERS: {
     // object containing tier : list of classes
-    S: [], // course IDs
+    S: ["INFOTC 1040", "INFOTC 1610"], // course IDs
     A: [],
     B: [],
     C: [],
