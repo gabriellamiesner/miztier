@@ -9,7 +9,7 @@ resetServerContext();
 
 const Index = () => {
   const initialTiers = {
-    S: ["INFOTC 1610", "INFOTC 1040"], // course numbers as IDs
+    S: [], // course numbers as IDs
     A: [],
     B: [],
     C: [],
