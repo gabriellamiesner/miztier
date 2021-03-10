@@ -1,5 +1,5 @@
 import React from "react";
-import colors from "../data/colors.json";
+import colors from "../data/";
 import { Draggable } from "react-beautiful-dnd";
 
 export default class Item extends React.Component {
